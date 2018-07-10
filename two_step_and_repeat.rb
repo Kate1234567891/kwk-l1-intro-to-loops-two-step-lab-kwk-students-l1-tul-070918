@@ -27,7 +27,7 @@ else
   put "Right"
 steps += 1
 end
-if steps % 2 ==0
+if steps % 2 == 0
 end
 
 def break_dance
