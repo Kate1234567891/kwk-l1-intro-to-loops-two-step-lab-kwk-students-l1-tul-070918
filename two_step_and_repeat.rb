@@ -21,14 +21,17 @@ def a_few_more_steps
 end
 
 def how_many_steps
-steps=0
-Left steps % 2 = 0
-else
-  put "Right"
-steps += 1
+  steps=0
+  while steps < 30
+  if steps % 2 == 0
+    "Left"
+  else
+    puts "right"
+  end'
+  steps += 1
 end
-if steps % 2 == 0
 end
+  
 
 def break_dance
   # Write a solution that uses the same code as how_many_steps?, but breaks the
