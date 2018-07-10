@@ -17,7 +17,6 @@ def a_few_more_steps
   puts "Right foot steps right"
   sleep(0.5)
   puts "Turn"
-  sleep(1)
 end
 
 def how_many_steps
