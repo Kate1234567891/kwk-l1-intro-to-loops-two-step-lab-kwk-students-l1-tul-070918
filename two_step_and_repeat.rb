@@ -39,6 +39,17 @@ def break_dance
 end
 
 loop do 
+  def how_many_steps
+  steps=0
+  while steps < 30
+  if steps % 2 == 0
+    "Left"
+  else
+    puts "right"
+  end
+  steps += 1
+end
+end
   puts 'hello'
   break
   puts 'goodbye'
