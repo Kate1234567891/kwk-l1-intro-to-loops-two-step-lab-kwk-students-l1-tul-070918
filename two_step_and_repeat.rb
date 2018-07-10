@@ -26,6 +26,7 @@ Left steps % 2 = 0
 else
   put "Right"
 steps += 1
+end
 if steps % 2 ==0
 end
 
