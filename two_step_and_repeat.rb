@@ -27,7 +27,7 @@ def how_many_steps
     "Left"
   else
     puts "right"
-  end'
+  end
   steps += 1
 end
 end
